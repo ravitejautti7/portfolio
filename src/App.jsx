@@ -11,7 +11,7 @@ function App(){
 
     return(
         <div>
-            <h1>Welcome Banner</h1>
+            
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home/>} />
