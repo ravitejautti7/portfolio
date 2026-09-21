@@ -4,7 +4,7 @@ const Navbar=()=>{
 
     return(
         <nav>
-            <h1>UTTI RAVITEJA</h1>
+            <h1>Utti Raviteja</h1>
             <div>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>

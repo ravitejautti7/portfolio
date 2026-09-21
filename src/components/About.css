@@ -1,0 +1,55 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+ul li{
+    padding :10px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    transition: transform 0.3s;
+    
+}
+h2{
+    margin: 20px;
+}
+
+ul li:hover{
+    transform: scale(1.05);
+}
+
+.education-card {
+    background-color: #2a2630;
+    color: white;
+    margin: 20px 10%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.experience-card {
+    background-color: #2a2630;
+    color: white;
+    margin: 20px 10%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tech-list li {
+    padding: 5px 10px;
+    background-color: darkslategray;
+    
+}
+
+.tech-list li:hover{
+    transform: none;
+}
+
+.experience-points{
+    list-style: disc;
+    background-color: transparent;
+}
